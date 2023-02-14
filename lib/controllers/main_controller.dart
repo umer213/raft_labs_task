@@ -1,11 +1,6 @@
-import 'dart:io';
-
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:get/get.dart';
-import 'package:raft_labs_task/constants/imports.dart';
-import 'package:raft_labs_task/models/entry_model.dart';
-import 'package:raft_labs_task/networking/api_repo.dart';
-import 'package:intl/intl.dart';
+
+import '../constants/imports.dart';
 
 class MainController extends GetxController {
   ApiRepo apiRepo = ApiRepo();
@@ -72,4 +67,3 @@ class MainController extends GetxController {
     }
   }
 }
-//url_launcher: ^6.1.9

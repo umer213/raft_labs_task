@@ -5,7 +5,7 @@ class ApiRepo {
 
   Future FetchData() async {
     try {
-      final response = await _dioClient.getData(EndPoints.baseUrl2);
+      final response = await _dioClient.getData(EndPoints.baseUrl);
       //  print(response);
       return response;
     } catch (e) {

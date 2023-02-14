@@ -12,3 +12,8 @@ export 'package:raft_labs_task/widgets/app_text.dart';
 export 'package:webview_flutter/webview_flutter.dart';
 export '../constants/imports.dart';
 export '../views/mainpage_view.dart';
+export 'dart:io';
+export 'package:connectivity_plus/connectivity_plus.dart';
+export 'package:raft_labs_task/constants/imports.dart';
+export 'package:raft_labs_task/models/entry_model.dart';
+export 'package:raft_labs_task/networking/api_repo.dart';

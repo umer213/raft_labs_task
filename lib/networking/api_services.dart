@@ -3,13 +3,7 @@ import '../constants/imports.dart';
 class DioClient {
   final Dio _dio = Dio();
 
-  DioClient() {
-    _dio
-      //..options.baseUrl = EndPoints.baseUrl2
-      //..options.connectTimeout = EndPoints.connectTimeout;
-      //..options.receiveTimeout = 300
-      ..options.responseType = ResponseType.json;
-  }
+  DioClient();
 
   //api get method
 

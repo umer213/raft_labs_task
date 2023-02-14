@@ -108,7 +108,8 @@ class MainPage extends GetWidget<MainController> {
   Widget webView() {
     return Container(
       child: WebView(
-        initialUrl: '',
+        //i have used my own github repo for example
+        initialUrl: 'https://github.com/umer213/raft_labs_task',
         onWebViewCreated: (controller) {
           controller = controller;
         },
